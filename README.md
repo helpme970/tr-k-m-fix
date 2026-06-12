@@ -1,5 +1,6 @@
 # Tomb Raider (2013) Keyboard and Mouse fix
 
+## How-to
 1. Open the executable in a hex-editor
 2. Disable Auto-Rotating Camera
 - horizontal
@@ -10,6 +11,6 @@
 - Search for "8B CF ?? ?? ?? ?? ?? 84 C0 74 ?? 56" and replace it with "8B CF ?? ?? ?? ?? ?? 84 C0 EB ?? 56"
 - or change byte 0099b97 to "EB"
 
-Sources:
+## Sources
 - https://www.nexusmods.com/tombraider2013/mods/90
 - https://www.nexusmods.com/tombraider2013/mods/91
